@@ -148,7 +148,7 @@ void irq_install() {
     asm volatile("sti");
     asm volatile ("xchg %bx, %bx");
     /* IRQ0: timer */
-    init_timer(50);
+    //init_timer(50);
     /* IRQ1: keyboard */
     init_keyboard();
 }
