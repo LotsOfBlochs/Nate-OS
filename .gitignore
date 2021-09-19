@@ -1,4 +1,6 @@
 /.vscode
-/kernel.bin
-/kernel.elf
-/kernel.sym
+*.bin
+*.elf
+*.sym
+
+*.o

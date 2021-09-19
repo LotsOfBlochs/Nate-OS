@@ -55,7 +55,7 @@ debug: Nate-OS.bin kernel.sym
 
 clean:
 	rm -rf *.bin *.o Nate-OS.bin *.elf *.sym
-	rm -rf src/kernel/*.o src/bootloader/*.bin src/bootloader/*.o src/resources/*.o src/cpu/*.o src/drivers/*.o src/libc/*.o
+	rm -rf src/kernel/*.o src/bootloader/*.bin src/resources/*.o src/bootloader/*.o src/resources/*.o src/cpu/*.o src/drivers/*.o src/libc/*.o
 
 
 #OUTPUT
